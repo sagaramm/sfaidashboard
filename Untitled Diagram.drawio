@@ -1,1 +1,53 @@
-<mxfile host="app.diagrams.net" modified="2021-09-21T08:53:38.897Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" version="15.2.7" etag="7Pqujx8AZQcNVu6QyrZW" type="github"><diagram id="iUOkT3Ol6XS3rXCI9hA2">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-09-21T11:38:17.340Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="n8e6ThftHq-uGFPUmXBz" version="15.2.7" type="github">
+  <diagram id="iUOkT3Ol6XS3rXCI9hA2" name="Page-1">
+    <mxGraphModel dx="1278" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xp8omxoljfInHXRwU-XT-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xp8omxoljfInHXRwU-XT-1" target="xp8omxoljfInHXRwU-XT-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xp8omxoljfInHXRwU-XT-1" value="user externally approves CD" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xp8omxoljfInHXRwU-XT-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xp8omxoljfInHXRwU-XT-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xp8omxoljfInHXRwU-XT-2" value="Case status change" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="125" width="120" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="xp8omxoljfInHXRwU-XT-4" value="PNR_ExternalApproverEmailHandler" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="125" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xp8omxoljfInHXRwU-XT-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xp8omxoljfInHXRwU-XT-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xp8omxoljfInHXRwU-XT-5" value="SAP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="350" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xp8omxoljfInHXRwU-XT-9" value="PNR_CorrDocuTriggerHelper, sends call out to SAP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="230" width="350" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xp8omxoljfInHXRwU-XT-10" value="&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; , &amp;#34;helvetica&amp;#34; , sans-serif ; font-size: 11.36px&quot;&gt;Correction_Document_SAP_Number__c number will be updated in Salesforce,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(8 , 7 , 7) ; font-family: , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif , &amp;#34;apple color emoji&amp;#34; , &amp;#34;segoe ui emoji&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; ; font-size: 13px ; text-align: left ; background-color: rgb(243 , 242 , 242)&quot;&gt;Data_Send_to_SAP__c will be made true&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; , &amp;#34;helvetica&amp;#34; , sans-serif ; font-size: 11.36px&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="110" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xp8omxoljfInHXRwU-XT-12" value="sends response back to salesforce." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="255" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xp8omxoljfInHXRwU-XT-13" value="PNR_CorrDocuTriggerHelper, receives the response" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="275" width="350" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xp8omxoljfInHXRwU-XT-14" value="Correction document and related line items" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xp8omxoljfInHXRwU-XT-15" value="Payload" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="370" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
